@@ -1,0 +1,42 @@
+POST http://localhost:8000/api/addproduct
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+{"title": "New Product", "price": 22.50}
+
+<> 2017-12-29T075521.200.json
+
+###
+
+POST http://localhost:8000/api/addproduct
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+{"id":4, "title": "New Product"}
+
+<> 2017-12-29T075419.200.json
+
+###
+
+POST http://localhost:8000/api/addproduct
+Accept:*/*
+Cache-Control:no-cache
+
+{"id":4, "title": "New Product"}
+
+<> 2017-12-29T075237.200.json
+
+###
+
+POST http://localhost:8000/api/addproduct
+Accept:*/*
+Cache-Control:no-cache
+
+{"id":4, "title": "New Product"
+
+<> 2017-12-29T075216.200.json
+
+###
+

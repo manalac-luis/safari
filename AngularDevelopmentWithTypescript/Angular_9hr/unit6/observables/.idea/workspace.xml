@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce9bf07c-a1b3-457c-bfd4-0f40eb0e4bd9" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fromevent/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#80#0" expanded="true" />
+                <marker date="1526383382000" expanded="true" signature="1410:1469" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-fromevent.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main-fromevent.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="448" column="6" selection-start-line="448" selection-start-column="6" selection-end-line="448" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!block;n#formcontrol#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#formcontrol-e2e#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#fromevent#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#fromevent-e2e#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#weather#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#weather-e2e#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#asyncpipe#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#asyncpipe-e2e#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#master-detail#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#master-detail-e2e#0;n#!!block;n#projects#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/weather/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="16" column="77" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/formcontrol/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/formcontrol/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/asyncpipe/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shar</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/proxy-conf.js" />
+        <option value="$PROJECT_DIR$/proxy-conf.json" />
+        <option value="$PROJECT_DIR$/src/app/router/product.detail.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/http/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/http/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/main-asyncpipe.ts" />
+        <option value="$PROJECT_DIR$/src/app/asyncpipe/product.service.ts" />
+        <option value="$PROJECT_DIR$/src/main-asyncpipe-products.ts" />
+        <option value="$PROJECT_DIR$/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/src/main-master-detail.ts" />
+        <option value="$PROJECT_DIR$/src/app/master-detail/product.detail.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/flex-layout/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/flex-layout/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/observable-media/app.component.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/app/asyncpipe/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/master-detail/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/formcontrol/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/asyncpipe-products/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/subject/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/fromevent/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/asyncpipe/app.component.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/asyncpipe-products/product.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/subjectshared/app.component.ts" />
+        <option value="$PROJECT_DIR$/angular.json" />
+        <option value="$PROJECT_DIR$/src/app/weather/app.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1331" />
+    <option name="height" value="866" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="observables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="observables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="observables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="observables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="observables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="observables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="observables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="observables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="formcontrol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="observables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="observables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="refC&#9;null&#9;null&#10;refCount&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.1.3/bin/node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce9bf07c-a1b3-457c-bfd4-0f40eb0e4bd9" name="Default" comment="" />
+      <created>1489310264994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489310264994</updated>
+      <workItem from="1489310266453" duration="433000" />
+      <workItem from="1489329567978" duration="2173000" />
+      <workItem from="1490719353526" duration="5000" />
+      <workItem from="1490719367054" duration="2274000" />
+      <workItem from="1491639856899" duration="1306000" />
+      <workItem from="1491687752817" duration="5924000" />
+      <workItem from="1492108466788" duration="2913000" />
+      <workItem from="1492951166036" duration="3934000" />
+      <workItem from="1493309167676" duration="932000" />
+      <workItem from="1493827246890" duration="1325000" />
+      <workItem from="1494259346298" duration="551000" />
+      <workItem from="1494532638591" duration="3316000" />
+      <workItem from="1494789911155" duration="4131000" />
+      <workItem from="1495532506006" duration="1476000" />
+      <workItem from="1496083965562" duration="399000" />
+      <workItem from="1496342162046" duration="1882000" />
+      <workItem from="1497551163317" duration="1367000" />
+      <workItem from="1497731176241" duration="18000" />
+      <workItem from="1497809257666" duration="567000" />
+      <workItem from="1501183584817" duration="1604000" />
+      <workItem from="1502023505535" duration="4607000" />
+      <workItem from="1502365759937" duration="1431000" />
+      <workItem from="1505169324993" duration="3383000" />
+      <workItem from="1505248406121" duration="29205000" />
+      <workItem from="1505687652069" duration="3300000" />
+      <workItem from="1505749949563" duration="1082000" />
+      <workItem from="1506443938259" duration="1455000" />
+      <workItem from="1506772274623" duration="8903000" />
+      <workItem from="1506947218028" duration="3277000" />
+      <workItem from="1508486935327" duration="1292000" />
+      <workItem from="1510130183356" duration="3308000" />
+      <workItem from="1510140512376" duration="1457000" />
+      <workItem from="1510305846379" duration="2820000" />
+      <workItem from="1510413974691" duration="1234000" />
+      <workItem from="1512050928604" duration="139000" />
+      <workItem from="1512051231168" duration="63000" />
+      <workItem from="1512671121040" duration="605000" />
+      <workItem from="1512676699389" duration="606000" />
+      <workItem from="1513687172436" duration="921000" />
+      <workItem from="1518645319075" duration="1742000" />
+      <workItem from="1523939036432" duration="1085000" />
+      <workItem from="1525964797137" duration="2048000" />
+      <workItem from="1526052963743" duration="1580000" />
+      <workItem from="1526381051233" duration="7718000" />
+      <workItem from="1526475062869" duration="81000" />
+      <workItem from="1527429547266" duration="715000" />
+      <workItem from="1528821549832" duration="2244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122831000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32892805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22001588" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3683432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/fromevent/app.component.ts</url>
+          <line>48</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/weather/app.component.ts</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fromevent/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+            <marker date="1526383382000" expanded="true" signature="1410:1469" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe-products/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/weather/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fromevent/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/http/src/http.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/src/router_state.d.ts" />
+    <entry file="file://$PROJECT_DIR$/proxy-conf.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/bundles/Rx.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/src/observable/ConnectableObservable.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/router/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/router/product.detail.component.ts" />
+    <entry file="file:///../../../angular2typescript/SecondEdition/chapter2/pipes/src/app/temperature.pipe.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/weather/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/router/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/router.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/public_api.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/src/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main-master-detail.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/master-detail/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="9" selection-start-column="54" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/common/http/src/client.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/flex-layout/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/observable-media/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/Observable.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/flex-layout/typings/media-query/observable-media.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/flex-layout/typings/media-query/media-change.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/observable-media/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe/product.service.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/flex-layout/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/master-detail/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/master-detail/product.detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main-asyncpipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="14" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.angular-cli.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/src/internal/observable/empty.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/fromevent/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+            <marker date="1526383382000" expanded="true" signature="1410:1469" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe-products/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/asyncpipe-products/product.service.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/subject/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/subjectshared/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main-subject-shared.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main-asyncpipe-products.ts" />
+    <entry file="file://$PROJECT_DIR$/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="448" column="6" selection-start-line="448" selection-start-column="6" selection-end-line="448" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#formcontrol#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#formcontrol-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#fromevent#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#fromevent-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#weather#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#weather-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#asyncpipe#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#asyncpipe-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#master-detail#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#master-detail-e2e#0;n#!!block;n#projects#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/formcontrol/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/formcontrol/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/weather/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main-fromevent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
