@@ -4,7 +4,9 @@
 .otherday {
   color:blue;
 }
-
+.selected {
+  background-color: green;
+}
 h2 {
   color:red;
 }

@@ -19,14 +19,28 @@ export class Catalog extends Component {
       .then(json=>{this.setState({products:json})})
       .catch(error=>console.log(error));
   }
-  
+
+  select = (productCode) => {
+    console.log("select");
+    let productList = this.state.products.map(function(p){
+      if (p.code === productCode) {
+        p.selected = true;
+        console.log("p.code selected",p.code);
+      } else {
+        p.selected = false;
+      }
+      return p;
+    });
+    this.setState({products:productList});
+  }
+
   render() {
     let title = 'Catalog';
 
     return (
-      <div className='other-day'>
+      <div >
         <h2>{title}</h2>
-        <ProductList items={this.state.products}/>
+        <ProductList items={this.state.products} selectHandler={this.select}/>
       </div>
     );
     {/*

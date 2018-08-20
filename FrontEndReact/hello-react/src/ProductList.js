@@ -12,7 +12,7 @@ class ProductList extends React.Component {
     let productComponents = [];
 
     for (let product of this.props.items){
-      productComponents.push(<Product item={product} />);
+      productComponents.push(<Product item={product} selectHandler={this.props.selectHandler}/>);
     }
     return(
     <ul>
