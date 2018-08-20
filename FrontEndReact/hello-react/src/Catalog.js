@@ -9,14 +9,24 @@ const style = {
 
 export class Catalog extends Component {
 
-
+  constructor(){
+    super();
+    this.state = {
+      products: []
+    }
+    fetch("products.json")
+      .then(response=>response.json())
+      .then(json=>{this.setState({products:json})})
+      .catch(error=>console.log(error));
+  }
+  
   render() {
     let title = 'Catalog';
 
     return (
       <div className='other-day'>
         <h2>{title}</h2>
-        <ProductList />
+        <ProductList items={this.state.products}/>
       </div>
     );
     {/*
