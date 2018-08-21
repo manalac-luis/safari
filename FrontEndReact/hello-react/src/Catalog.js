@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './Catalog.css';
 import ProductList from './ProductList';
+import Cart from './Cart'
 
 const style = {
   color:'green',
@@ -12,7 +13,9 @@ export class Catalog extends Component {
   constructor(){
     super();
     this.state = {
-      products: []
+      products: [],
+      cartItems: [],
+      displayedCartItems:[]
     }
     fetch("products.json")
       .then(response=>response.json())
@@ -20,57 +23,47 @@ export class Catalog extends Component {
       .catch(error=>console.log(error));
   }
 
-  select = (productCode) => {
-    console.log("select");
-    let productList = this.state.products.map(function(p){
-      if (p.code === productCode) {
-        p.selected = true;
-        console.log("p.code selected",p.code);
+
+  //error - addToCart(item) or bind in constructor
+  addToCart = (item) => {
+
+    this.state.cartItems.push(item);
+
+    let newCartItemList = [];
+    for (let item of this.state.cartItems){
+      let foundItem = newCartItemList.find(x=>x.code===item.code);
+      if (foundItem){
+        foundItem.quantity = foundItem.quantity+1;
       } else {
-        p.selected = false;
+        item.quantity = 1;
+        newCartItemList.push(item);
       }
-      return p;
-    });
-    this.setState({products:productList});
+    }
+    console.log(newCartItemList);
+
+    this.setState({
+        displayedCartItems:newCartItemList,
+        });
+
+    //this.setState({
+    //    cartItems:[...this.state.cartItems, item],
+    //    displayedCartItems:newCartItemList,
+    //    });
+
   }
 
   render() {
-    let title = 'Catalog';
 
     return (
-      <div >
-        <h2>{title}</h2>
-        <ProductList items={this.state.products} selectHandler={this.select}/>
+      <div>
+        <div className='catalog'>
+          <h2>Wine Catalog</h2>
+          <ProductList items={this.state.products} addToCartHandler={this.addToCart}/>
+        </div>
+        <Cart items={this.state.displayedCartItems} />
       </div>
     );
-    {/*
-    let today = new Date().getDay();
-    let message;
 
-    if (today == 0){
-      message = <div className="sunday">Closed on Sunday</div>
-    } else {
-      message = <div className="otherday">Open Monday to Saturday</div>
-    }
-
-    return message;
-    */}
-    {/*
-    return(
-      <div>
-        <div>
-          <p></p>
-        </div>
-        <div className="form-row">
-          <label htmlFor="code" className="control-label" style={{color:'green'}}>Insert code</label>
-          <input type="text" className="form-control" name="code" />
-        </div>
-        <div className="form-row">
-          <button style ={style} type="submit" class="btn" >Send</button>
-        </div>
-      </div>
-    ); */
-    }
   }
 }
 

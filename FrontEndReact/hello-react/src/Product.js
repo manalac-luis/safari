@@ -8,9 +8,12 @@ export class Product extends Component {
     let classToApply = this.props.item.selected ? 'selected': '';
 
     return(
-    <li onClick = {()=>this.props.selectHandler(this.props.item.code)} className={classToApply}>
+    <li >
       <h3>{this.props.item.name}</h3>
       <p>{this.props.item.description}</p>
+      <button onClick={() => this.props.addToCartHandler(this.props.item)}>
+        Add To Cart
+      </button>
     </li>
     );
   }
