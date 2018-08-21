@@ -1,0 +1,17 @@
+.sunday {
+  color:red;
+}
+.otherday {
+  color:blue;
+}
+.selected {
+  background-color: green;
+}
+h2 {
+  color:red;
+}
+
+.catalog {
+  width: 70%;
+  float: left;
+}
