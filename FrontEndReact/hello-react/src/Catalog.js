@@ -57,7 +57,7 @@ export class Catalog extends Component {
     return (
       <div>
         <div className='catalog'>
-          <h2>Wine Catalog</h2>
+          <h2>React-Router </h2>
           <ProductList items={this.state.products} addToCartHandler={this.addToCart}/>
         </div>
         <Cart items={this.state.displayedCartItems} />
