@@ -9,6 +9,7 @@ const passport = require('passport');
 
 // Load Input Validation
 const validateRegisterInput = require('../../validation/register');
+const validateLoginInput = require('../../validation/login');
 
 // Load User model
 const User = require('../../models/User');
@@ -23,6 +24,15 @@ router.get('/test',(req,res)=>res.json({msg:"Users Works"})
 
 
 router.post('/login',(req,res)=>{
+
+  const {errors, isValid } = validateLoginInput(req.body);
+
+
+  if (!isValid) {
+    return res.status(400).json(errors);
+  }
+
+
   const email = req.body.email;
   const password = req.body.password;
 
@@ -34,7 +44,8 @@ router.post('/login',(req,res)=>{
     .then(user=>{
       // Check for users
       if (!user){
-        return res.status(404).json({email:'User not found'});
+        errors.email = 'User not found';
+        return res.status(404).json(errors);
       }
       // Check for password
       bcrypt.compare(password, user.password)
@@ -55,7 +66,8 @@ router.post('/login',(req,res)=>{
               });
 
           } else {
-            return res.status(404).json({password: 'Password incorrect'});
+            errors.password = 'Password incorrect';
+            return res.status(404).json(errors);
           }
         })
       });
@@ -71,8 +83,7 @@ router.post('/register',(req,res)=>{
   //console.log("/register:",req.body);
   const {errors, isValid } = validateRegisterInput(req.body);
 
-  console.log("errors:",errors);
-  console.log("isValid:",isValid);
+
   if (!isValid) {
     return res.status(400).json(errors);
   }
