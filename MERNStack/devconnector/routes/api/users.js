@@ -6,6 +6,10 @@ const jwt = require('jsonwebtoken');
 const keys = require('../../config/keys');
 const passport = require('passport');
 
+
+// Load Input Validation
+const validateRegisterInput = require('../../validation/register');
+
 // Load User model
 const User = require('../../models/User');
 
@@ -63,6 +67,16 @@ router.post('/login',(req,res)=>{
 // @access Public
 
 router.post('/register',(req,res)=>{
+
+  //console.log("/register:",req.body);
+  const {errors, isValid } = validateRegisterInput(req.body);
+
+  console.log("errors:",errors);
+  console.log("isValid:",isValid);
+  if (!isValid) {
+    return res.status(400).json(errors);
+  }
+
   User.findOne({email: req.body.email}).then(user=>{
     if (user){
         return res.status(400).json({email:'Email already exists'});
