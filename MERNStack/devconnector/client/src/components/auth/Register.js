@@ -40,7 +40,7 @@ class Register extends Component {
 
     const {errors} = this.state;
 
-    console.log(errors);
+
     return(
       <div className="register">
         <div className="container">

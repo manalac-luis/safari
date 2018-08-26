@@ -47,7 +47,7 @@ module.exports = function validateRegisterInput(data){
 
 
   //return{errors,isValid:false};
-  console.log("isEmpty:",isEmpty(errors));
+  //console.log("isEmpty:",isEmpty(errors));
   return{
     errors,
     isValid:isEmpty(errors)
