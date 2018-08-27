@@ -86,7 +86,7 @@ class Login extends Component {
       </div>
     );
   }
-} 
+}
 
 Login.propTypes = {
   loginUser: PropTypes.func.isRequired,
