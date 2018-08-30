@@ -29,8 +29,13 @@ class ProfileGithub extends Component {
       })
       .catch(err => console.log(err));
   }
-
-  render() {
+  render(){
+    return(
+      <div>
+      </div>
+    )
+  }
+  xrender() {
     const { repos } = this.state;
 
     const repoItems = repos.map(repo => (
